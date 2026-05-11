@@ -24,10 +24,18 @@ network.random(m, max) // Randomizes by [m] to [max], Use now the Randomizer.ran
 # Constants (like: naviagator.mediaDevices)
 ## Randomizer 
 ### The randomizer for any number, 
-### Useful for randomizing than 
-### Math.random(), and not recommended ### for not using the NetworkProvider, 
-### since it returns RandomPromise<>, 
-### which is like a Promise, but better, ### and inputs in the
-``` javascript
- NetworkProvider.Train({ input: "" // this is})
+
+### Problems:
+
+### 1st: This returns a
+### RandomizerPromise<>,
+### which the network.Train() can ONLY
+### read the RandomizerPromise generic ### type
+
+### Constant Methods:
+``` typescript
+Randomizer.random(min: number, max: number): RandomizerPromise // Randomizes an number.
+
+// more in the future!
+
 ```
