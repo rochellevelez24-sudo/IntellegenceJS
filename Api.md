@@ -1,5 +1,5 @@
 # The api.
-
+( joke this is made of TypeScript )
 # Classes
 
 ## new NetworkProvider ( Class )
@@ -23,4 +23,11 @@ network.random(m, max) // Randomizes by [m] to [max], Use now the Randomizer.ran
 ```
 # Constants (like: naviagator.mediaDevices)
 ## Randomizer 
-### The randomizer for any number, Useful for randomizing than Math.random(), and not recommended for not using the NetworkProvider, since it returns RandomPromise<>, which is like a Promise, but better, and inputs in the NetworkProvider.Train({ input: "" // this is})
+### The randomizer for any number, 
+### Useful for randomizing than 
+### Math.random(), and not recommended ### for not using the NetworkProvider, 
+### since it returns RandomPromise<>, 
+### which is like a Promise, but better, ### and inputs in the
+``` javascript
+ NetworkProvider.Train({ input: "" // this is})
+```
