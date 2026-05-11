@@ -62,7 +62,7 @@ input: [1,2], output: Randomizer.random(1,2)
 ])
 let userinput = UserInput.set(yourinput.value)
 network.input(userinput)
-`
+```
 
 > ⚠️ **Note:** Update this section with your actual API and usage examples once the project is developed further.
 
