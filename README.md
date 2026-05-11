@@ -80,6 +80,8 @@ IntellegenceJS/
 ```
 
 ---
+## The API ⚙️
+The api is in [Api.md](https://github.com/rochellevelez24-sudo/Api.md)
 
 ## 🤝 Contributing
 
